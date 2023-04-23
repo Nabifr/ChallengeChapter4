@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSplash">
+
+    <TextView
+        android:id="@+id/tvSplashUp"
+        android:layout_marginTop="260dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hii There"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/ivSplash"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tvSplashUp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/img_andro" />
+
+    <TextView
+        android:id="@+id/tvSplashDown"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Wait"
+        android:layout_below="@id/ivSplash"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+</RelativeLayout>
